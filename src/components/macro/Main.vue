@@ -1,27 +1,19 @@
 <template>
-  <div class="container">
-      <div class="row">
-          <div class="col"><span>qui</span></div>
-          <div class="col"><span>ci sono</span></div>
-          <div class="col"><span>delle colonne</span></div>
-      </div>
-
-  </div>
+  <Album />
 </template>
 
 <script>
-export default {
-    name: 'Main'
+import Album from '../commons/Album.vue'
 
+
+export default {
+    name: 'Main',
+    components: {
+        Album
+    }
 }
 </script>
 
-<style lang="scss">
-@import "../../assets/style/vars.scss";
-
-span{
-    color: $coloreSecondario;
-}
-
+<style lang="scss" scoped>
 
 </style>
