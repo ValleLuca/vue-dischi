@@ -1,9 +1,8 @@
 <template>
   <section class="container">
-
         <Select 
-        @selectDato="filtroGenere"/>
-
+        @selectDato="filtroGenere" />
+        
         <div v-if="selectEmit!=''" class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 row-cols-lg-5 mt-5">
                 <BoxAlbum
@@ -23,7 +22,6 @@
             </div>
         </div>
         
-
   </section>
 </template>
 

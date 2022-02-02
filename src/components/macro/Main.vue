@@ -5,7 +5,6 @@
 <script>
 import Album from '../commons/Album.vue'
 
-
 export default {
     name: 'Main',
     components: {
